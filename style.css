@@ -79,6 +79,82 @@ tr:nth-child(odd) {
 justify-content: center;
 }
 
-.flex-direction{
+.justify-content-flex-start {
+justify-content: flex-start ;
+}
+
+.justify-content-flex-end {
+justify-content: flex-end;
+}
+
+.justify-content-space-between {
+justify-content: space-between;
+}
+
+.justify-content-space-around {
+justify-content: space-around;
+}
+
+.justify-content-space-evenly{
+justify-content: space-evenly;
+}
+
+.justify-content-initial{
+justify-content: initial;
+}
+
+.justify-content-inherit{
+justify-content: inherit
+}
+
+.flex-direction-row {
     flex-direction: row;
+}
+
+.flex-direction-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-direction-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-directuon-initial {
+flex-direction: initial;
+}
+    
+.flex-direction-inherit {
+flex-direction: inherit;
+ }
+
+.align-items-normal {
+align-items: normal;
+}
+
+.align-items-stretch {
+align-items: stretch;
+}
+
+.align-items-center {
+align-items: center;
+}
+
+.align-items-flex-start {
+align-items: flex-start ;
+}
+    
+.align-items-flex-end {
+align-items: flex-end;
+}
+
+.align-items-start {
+align-items: start;
+}
+
+.align-items-end {
+align-items: end;
 }

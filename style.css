@@ -23,6 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 32pt;
+    color: gold;
+    justify-content: center;
 }
 
 h2 {
@@ -32,6 +34,7 @@ h2 {
 
 h3 {
     font-size: 22pt;
+    color: cyan;
 }
 
 h4 {
@@ -60,15 +63,15 @@ tr:nth-child(odd) {
 
 .conteiner {
     height: 300px;
-    background-color: antiquewhite;
-    border: 5px solid #ff0000;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid #ffffff;
 }
 
 .contido {
     width: 100px;
     height: 100px;
-    background-color: aqua;
-    border: 5px solid #0000ff;
+    background-color: red;
+    border: 5px solid #ffffff;
 }
 
 .display-flex {
@@ -151,13 +154,13 @@ align-items: flex-start ;
 align-items: flex-end;
 }
 
-.align-items-start {
-align-items: start;
-}
+    .align-items-start {
+    align-items: start;
+    }
 
-.align-items-end {
-align-items: end;
-}
+    .align-items-end {
+    align-items: end;
+    }
 
 .flex-wrap-nowrap {
 flex-wrap: nowrap;
@@ -170,3 +173,32 @@ flex-wrap: wrap;
 .flex-wrap-wrap-reverse {
 flex-wrap: wrap-reverse;
 }
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-flex-start {
+    align-content: flex-start;
+}
+
+.align-content-flex-end {
+    align-content: flex-end;
+}
+
+.align-content-space-between {
+    align-content: space-between;
+}
+
+.align-content-space-around {
+    align-content: space-around;
+}
+
+.align-content-space-evenly {
+    align-content: space-evenly;
+}
+
